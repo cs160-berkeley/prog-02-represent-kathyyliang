@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>Barbara Boxer</item>
+        <item>Dianne Feinstein</item>
+        <item>Barbara Lee</item>
+    </string-array>
+    <string-array name="parties">
+        <item>Democrat</item>
+        <item>Democrat</item>
+        <item>Democrat</item>
+    </string-array>
+    <string-array name="types">
+        <item>Senator</item>
+        <item>Senator</item>
+        <item>Representative</item>
+    </string-array>
+    <string-array name="image_names">
+        <item>barbara_boxer_120</item>
+        <item>dianne_feinstein_120</item>
+        <item>barbara_lee_120</item>
+    </string-array>
+</resources>
