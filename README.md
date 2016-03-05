@@ -1,20 +1,24 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
+On the mobile app, input a zip code or use your current location to see the senators and representatives of that area. Simultaneously, scrollable cards showing the senators and representatives will show on the watch. On the mobile app, click on the More Info button to see more details about them.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Kathy Liang ([kathyyliang@berkeley.edu](mailto:kathyyliang@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [prog02-b] (https://youtu.be/Wlqhx_Ku-yg)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/device-2016-03-04-232226.png" height="400" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232254.png" height="400" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232315.png" height="400" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232336.png" height="400" alt="Screenshot"/>
+
+<img src="screenshots/device-2016-03-04-232358.png" height="200" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232506.png" height="200" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232507.png" height="200" alt="Screenshot"/>
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
+* Catnip
+* http://developer.android.com/develop/index.html
+* http://developer.android.com/reference/packages.html
+* http://developer.android.com/samples/GridViewPager/src/com.example.android.wearable.gridviewpager/CustomFragment.html
