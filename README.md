@@ -12,9 +12,7 @@ See [prog02-b] (https://youtu.be/Wlqhx_Ku-yg)
 
 ## Screenshots
 
-<img src="screenshots/device-2016-03-04-232226.png" height="400" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232254.png" height="400" alt="Screenshot"/>
-
-<img src="screenshots/device-2016-03-04-232315.png" height="400" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232336.png" height="400" alt="Screenshot"/>
+<img src="screenshots/device-2016-03-04-232226.png" height="300" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232254.png" height="300" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232315.png" height="300" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232336.png" height="300" alt="Screenshot"/>
 
 <img src="screenshots/device-2016-03-04-232358.png" height="200" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232506.png" height="200" alt="Screenshot"/><img src="screenshots/device-2016-03-04-232507.png" height="200" alt="Screenshot"/>
 
