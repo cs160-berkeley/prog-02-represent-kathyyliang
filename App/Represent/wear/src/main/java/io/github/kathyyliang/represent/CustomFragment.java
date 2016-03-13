@@ -18,13 +18,13 @@ public class CustomFragment extends CardFragment {
 
         Bundle bundle = getArguments();
 
-        String imageName = bundle.getString("IMAGE_NAME");
-        Resources resources = getResources();
-        int image = resources.getIdentifier(imageName, "drawable", "io.github.kathyyliang.represent");
+        //String imageName = bundle.getString("IMAGE_URL");
+        //Resources resources = getResources();
+        //int image = resources.getIdentifier(imageName, "drawable", "io.github.kathyyliang.represent");
         //LinearLayout linearLayout = (LinearLayout) watchRepresentative.findViewById(R.id.custom_fragment);
         //linearLayout.setBackgroundResource(image);
-        ImageView imageView = (ImageView) watchRepresentative.findViewById(R.id.watch_image);
-        imageView.setImageResource(image);
+        //ImageView imageView = (ImageView) watchRepresentative.findViewById(R.id.watch_image);
+        //imageView.setImageResource(image);
 
         String name = bundle.getString("NAME");
         String type = bundle.getString("TYPE");

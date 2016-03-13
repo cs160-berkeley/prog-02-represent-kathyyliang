@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.kathyyliang.represent">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -32,7 +35,19 @@
         <service
             android:name=".PhoneListenerService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDAw6HJertGyt7Ef1uqbBeYCamaQwI6dDQ"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="efd123eaac5ab7e6592af04d7df14cb22b5e925d" />
+
+        <meta-data
+            android:name="congress.api.sunlightfoundation.apikey"
+            android:value="2629833fb0394fceb9e484608800c1c8" />
     </application>
 
 </manifest>

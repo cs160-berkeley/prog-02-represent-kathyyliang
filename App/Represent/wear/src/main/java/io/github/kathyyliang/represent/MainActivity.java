@@ -13,14 +13,23 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.twitter.sdk.android.Twitter;
+import com.twitter.sdk.android.core.TwitterAuthConfig;
+import io.fabric.sdk.android.Fabric;
 
 public class MainActivity extends Activity {
+
+    // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
+    private static final String TWITTER_KEY = "BiYmYnGapve3pwg1gB6zvS08o";
+    private static final String TWITTER_SECRET = "Yc40hCa7T5TPH7TUcVUJ4pZ7x6ZpVEbTtYvs1rekMCYbFlEE6s";
 
     public static Bundle EXTRAS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
+        Fabric.with(this, new Twitter(authConfig));
         setContentView(R.layout.activity_main);
 
         Intent intent = getIntent();

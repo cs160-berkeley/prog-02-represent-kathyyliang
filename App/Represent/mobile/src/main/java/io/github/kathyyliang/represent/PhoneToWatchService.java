@@ -50,7 +50,7 @@ public class PhoneToWatchService extends Service {
         String[] names = extras.getStringArray(PeopleView.NAMES);
         String[] parties = extras.getStringArray(PeopleView.PARTIES);
         String[] types = extras.getStringArray(PeopleView.TYPES);
-        String[] images = extras.getStringArray(PeopleView.IMAGE_NAMES);
+        String[] images = extras.getStringArray(PeopleView.IMAGE_URLS);
 
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < names.length; i++) {

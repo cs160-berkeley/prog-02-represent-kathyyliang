@@ -4,8 +4,8 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/imageView"
         android:adjustViewBounds="true"
         android:layout_marginStart="5dp"
@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Name name"
         android:id="@+id/name"
         android:layout_alignTop="@+id/imageView"
         android:layout_toEndOf="@+id/imageView"
@@ -28,8 +28,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:id="@+id/party"
+        android:text="President"
+        android:id="@+id/type"
         android:layout_below="@+id/name"
         android:layout_alignStart="@+id/name"
         android:layout_marginTop="5dp"
@@ -38,27 +38,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:id="@+id/type"
-        android:layout_below="@+id/party"
-        android:layout_alignStart="@+id/party"
+        android:text="Independent"
+        android:id="@+id/party"
+        android:layout_below="@+id/type"
+        android:layout_alignStart="@+id/type"
         android:layout_marginTop="5dp"
         android:layout_marginRight="5dp"/>
 
     <ImageView
-        android:layout_width="40dp"
+        android:layout_width="15dp"
         android:layout_height="wrap_content"
         android:id="@+id/twitter"
         android:adjustViewBounds="true"
-        android:layout_below="@+id/type"
-        android:layout_alignStart="@+id/type"
+        android:layout_below="@+id/party"
+        android:layout_alignStart="@+id/party"
         android:src="@drawable/twitterlogo_55acee_50"
         android:layout_marginTop="5dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="twitter_id"
         android:id="@+id/tweet"
         android:layout_alignTop="@+id/twitter"
         android:layout_toEndOf="@+id/twitter"
@@ -66,7 +66,7 @@
         android:layout_marginRight="5dp"
         android:textSize="11dp" />
 
-    <Button
+    <!--<Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="Email"
@@ -92,5 +92,35 @@
         android:id="@+id/more_info"
         android:textColor="@color/colorPrimary"
         android:layout_alignTop="@+id/website"
-        android:layout_toEndOf="@+id/website" />
+        android:layout_toEndOf="@+id/website" />-->
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="More Info"
+        android:id="@+id/more_info"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignTop="@+id/email"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:id="@+id/email"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:textSize="11dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website: "
+        android:id="@+id/website"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/email"
+        android:layout_alignStart="@+id/imageView"
+        android:textSize="11dp"/>
 </RelativeLayout>
