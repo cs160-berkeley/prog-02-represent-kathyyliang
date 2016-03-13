@@ -8,7 +8,7 @@ Kathy Liang ([kathyyliang@berkeley.edu](mailto:kathyyliang@berkeley.edu))
 
 ## Demo Video
 
-See [prog02-b] (https://youtu.be/Wlqhx_Ku-yg)
+[prog02-b] (https://youtu.be/Wlqhx_Ku-yg) & [prog02-c] (https://youtu.be/P-1SBmw0CtE)
 
 ## Screenshots
 
